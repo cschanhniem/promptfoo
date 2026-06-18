@@ -6,23 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.121.18](https://github.com/promptfoo/promptfoo/compare/0.121.17...0.121.18) (2026-06-18)
 
-
 ### Features
 
-* **providers:** add Moonshot (Kimi) provider ([#9672](https://github.com/promptfoo/promptfoo/issues/9672)) ([47c4def](https://github.com/promptfoo/promptfoo/commit/47c4def544fdab0b4efff8b7608689afb9a101b4))
-
+- **providers:** add Moonshot (Kimi) provider ([#9672](https://github.com/promptfoo/promptfoo/issues/9672)) ([47c4def](https://github.com/promptfoo/promptfoo/commit/47c4def544fdab0b4efff8b7608689afb9a101b4))
 
 ### Bug Fixes
 
-* address GitHub AI findings ([#9765](https://github.com/promptfoo/promptfoo/issues/9765)) ([fd8320a](https://github.com/promptfoo/promptfoo/commit/fd8320aa1e68e9f85f736b77eee9f86199ee5381))
-* **code-scan:** run GitHub Action on Node 24 runtime ([#9772](https://github.com/promptfoo/promptfoo/issues/9772)) ([c25974e](https://github.com/promptfoo/promptfoo/commit/c25974e8e74a5ba923c0318cb6576e2b4dfc9ad6))
-* **deps:** require hono v4.12.25 ([#9777](https://github.com/promptfoo/promptfoo/issues/9777)) ([c5b397a](https://github.com/promptfoo/promptfoo/commit/c5b397aa0fb3097d7ef8f3aa0293f15296c4162f))
-* **deps:** restore LangChain examples ([#9778](https://github.com/promptfoo/promptfoo/issues/9778)) ([fb16af0](https://github.com/promptfoo/promptfoo/commit/fb16af0bfb2f14a3741871cdd3203f8058e39965))
-* **deps:** update anthropic packages to v0.102.0 ([#9776](https://github.com/promptfoo/promptfoo/issues/9776)) ([3e18ecb](https://github.com/promptfoo/promptfoo/commit/3e18ecb9dfafe49490c79df64d7e53f5e2a8ca0b))
-* **deps:** update dependency semver to v7.8.3 ([#9804](https://github.com/promptfoo/promptfoo/issues/9804)) ([7a6b199](https://github.com/promptfoo/promptfoo/commit/7a6b1999a70d689d39064ac13e98b69a749b5c34))
-* **providers:** flatten Moonshot config options ([#9803](https://github.com/promptfoo/promptfoo/issues/9803)) ([f0e87d9](https://github.com/promptfoo/promptfoo/commit/f0e87d96de40ebb9c5a20053dcf6fdba97bd6a55))
-* restore Docker CLI links and validate rate-limit reset metadata ([#9790](https://github.com/promptfoo/promptfoo/issues/9790)) ([58e7c83](https://github.com/promptfoo/promptfoo/commit/58e7c8326867d470689f1f9978660c6f73e6f7c0))
-* **scheduler:** fall back from invalid retry-after-ms ([#9796](https://github.com/promptfoo/promptfoo/issues/9796)) ([81fe447](https://github.com/promptfoo/promptfoo/commit/81fe4479e722ae416b67e4e20fd5ba723dc91ff6))
+- address GitHub AI findings ([#9765](https://github.com/promptfoo/promptfoo/issues/9765)) ([fd8320a](https://github.com/promptfoo/promptfoo/commit/fd8320aa1e68e9f85f736b77eee9f86199ee5381))
+- **code-scan:** run GitHub Action on Node 24 runtime ([#9772](https://github.com/promptfoo/promptfoo/issues/9772)) ([c25974e](https://github.com/promptfoo/promptfoo/commit/c25974e8e74a5ba923c0318cb6576e2b4dfc9ad6))
+- **deps:** require hono v4.12.25 ([#9777](https://github.com/promptfoo/promptfoo/issues/9777)) ([c5b397a](https://github.com/promptfoo/promptfoo/commit/c5b397aa0fb3097d7ef8f3aa0293f15296c4162f))
+- **deps:** restore LangChain examples ([#9778](https://github.com/promptfoo/promptfoo/issues/9778)) ([fb16af0](https://github.com/promptfoo/promptfoo/commit/fb16af0bfb2f14a3741871cdd3203f8058e39965))
+- **deps:** update anthropic packages to v0.102.0 ([#9776](https://github.com/promptfoo/promptfoo/issues/9776)) ([3e18ecb](https://github.com/promptfoo/promptfoo/commit/3e18ecb9dfafe49490c79df64d7e53f5e2a8ca0b))
+- **deps:** update dependency semver to v7.8.3 ([#9804](https://github.com/promptfoo/promptfoo/issues/9804)) ([7a6b199](https://github.com/promptfoo/promptfoo/commit/7a6b1999a70d689d39064ac13e98b69a749b5c34))
+- **providers:** flatten Moonshot config options ([#9803](https://github.com/promptfoo/promptfoo/issues/9803)) ([f0e87d9](https://github.com/promptfoo/promptfoo/commit/f0e87d96de40ebb9c5a20053dcf6fdba97bd6a55))
+- restore Docker CLI links and validate rate-limit reset metadata ([#9790](https://github.com/promptfoo/promptfoo/issues/9790)) ([58e7c83](https://github.com/promptfoo/promptfoo/commit/58e7c8326867d470689f1f9978660c6f73e6f7c0))
+- **scheduler:** fall back from invalid retry-after-ms ([#9796](https://github.com/promptfoo/promptfoo/issues/9796)) ([81fe447](https://github.com/promptfoo/promptfoo/commit/81fe4479e722ae416b67e4e20fd5ba723dc91ff6))
 
 ## [0.121.17](https://github.com/promptfoo/promptfoo/compare/0.121.16...0.121.17) (2026-06-16)
 
